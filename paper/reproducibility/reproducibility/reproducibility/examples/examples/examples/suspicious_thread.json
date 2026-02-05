@@ -1,0 +1,18 @@
+{
+  "thread_id": "SUSPICIOUS_SAMPLE_001",
+  "description": "Highly regular reply intervals suggesting automation or coordination",
+  "replies": [
+    {"timestamp":"2026-02-04T20:56:29Z"},
+    {"timestamp":"2026-02-04T20:56:56Z"},
+    {"timestamp":"2026-02-04T20:57:24Z"},
+    {"timestamp":"2026-02-04T20:57:50Z"},
+    {"timestamp":"2026-02-04T20:58:17Z"},
+    {"timestamp":"2026-02-04T20:58:45Z"},
+    {"timestamp":"2026-02-04T20:59:11Z"},
+    {"timestamp":"2026-02-04T20:59:38Z"},
+    {"timestamp":"2026-02-04T21:00:06Z"},
+    {"timestamp":"2026-02-04T21:00:32Z"},
+    {"timestamp":"2026-02-04T21:00:59Z"},
+    {"timestamp":"2026-02-04T21:01:27Z"}
+  ]
+}
