@@ -12,6 +12,14 @@
 ## Abstract
 
 Veritas Engine is a deterministic, metadata-only analysis framework designed to
+## Citation
+
+If you use this work in academic research, policy analysis, or platform safety
+engineering, please cite:
+
+Maurya, L. C. (2026). *Veritas Engine: Deterministic, Proof-Based Detection of
+Coordinated Online Activity*. GitHub repository.
+https://github.com/lcmaurya/Veritas-engine-whitepaper
 distinguish **organic human engagement** from **coordinated or automated activity**
 in online conversation threads.
 
