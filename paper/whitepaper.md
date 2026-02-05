@@ -1,5 +1,5 @@
 # Veritas Engine
-## Deterministic Detection of Organic vs Coordinated Engagement  
+## Deterministic Detection of Organic vs Coordinated Engagement
 ### (Metadata-Only, Reproducible, Hash-Verifiable)
 
 **Author:** Lal Chandra Maurya  
@@ -12,37 +12,34 @@
 ## Abstract
 
 Veritas Engine is a deterministic, metadata-only analysis framework designed to
-## Citation
-
-If you use this work in academic research, policy analysis, or platform safety
-engineering, please cite:
-
-Maurya, L. C. (2026). *Veritas Engine: Deterministic, Proof-Based Detection of
-Coordinated Online Activity*. GitHub repository.
-https://github.com/lcmaurya/Veritas-engine-whitepaper
 distinguish **organic human engagement** from **coordinated or automated activity**
 in online conversation threads.
 
 The system operates exclusively on **timestamps and structural metadata**,
-excluding content, user identities, or behavioral profiling.
-All outputs are reproducible, hash-verifiable, and privacy-preserving.
+excluding content, user identities, behavioral profiling, or predictive models.
+All outputs are fully reproducible, hash-verifiable, and privacy-preserving.
+
+Veritas Engine prioritizes explainability and evidentiary rigor, making it suitable
+for academic research, platform trust-and-safety analysis, and policy or
+regulatory investigations.
 
 ---
 
 ## 1. Motivation
 
-Current bot-detection systems often rely on:
-- Content analysis
-- Account profiling
-- Machine-learning black boxes
-- Probabilistic scores
+Current bot-detection and abuse-detection systems often rely on:
 
-These approaches introduce privacy risks, bias, and non-reproducibility.
+- Content analysis  
+- Account-level profiling  
+- Machine-learning black boxes  
+- Probabilistic or opaque scoring  
 
-Veritas Engine addresses this gap by answering a narrower but critical question:
+These approaches introduce privacy risks, bias, and limited reproducibility.
+
+Veritas Engine addresses a narrower but critical question:
 
 > *Does the temporal structure of engagement resemble natural human behavior,
-or does it exhibit coordination/automation signatures?*
+or does it exhibit coordination or automation signatures?*
 
 ---
 
@@ -54,16 +51,16 @@ Veritas Engine is built on five non-negotiable principles:
    Uses timestamps and reply ordering only.
 
 2. **Deterministic**  
-   Same input → same output (no randomness, no ML weights).
+   Same input always produces the same output.
 
 3. **Reproducible**  
-   Any third party can re-run the analysis independently.
+   Any third party can independently verify results.
 
 4. **Hash-anchored**  
-   Sorted timestamps are SHA-256 hashed to create evidence anchors.
+   Sorted timestamps are SHA-256 hashed to create an evidence anchor.
 
 5. **Privacy-preserving**  
-   No content, no usernames, no identities.
+   No content, no usernames, no identity inference.
 
 ---
 
