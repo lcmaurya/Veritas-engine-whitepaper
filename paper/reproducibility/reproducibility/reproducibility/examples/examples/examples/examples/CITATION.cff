@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Veritas Engine: Deterministic, Proof-Based Detection of Coordinated Online Activity"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Maurya
+    given-names: Lal Chandra
+version: 1.0.0
+date-released: 2026-02-05
+license: MIT
+repository-code: https://github.com/lcmaurya/Veritas-engine-whitepaper
+keywords:
+  - bot-detection
+  - online-safety
+  - explainable-systems
+  - social-media-analysis
+  - reproducible-research
